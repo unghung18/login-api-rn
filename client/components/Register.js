@@ -26,7 +26,7 @@ export default function Register({ navigation }) {
                     navigation.navigate('Login');
 
                 } catch (error) {
-                    alert(error)
+                    alert(error.response.data)
                 }
 
             }
